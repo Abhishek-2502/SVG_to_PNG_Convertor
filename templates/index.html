@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG to PNG Converter</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+    <div class="header">
+        SVG to PNG Converter
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <form id="convertForm">
+                <textarea name="svg_code" id="svgCode" placeholder="Enter your SVG code here..."></textarea><br>
+                <button type="button" onclick="convertSvg()">Convert to PNG</button>
+            </form>
+
+            <!-- Image preview -->
+            <img id="imagePreview" alt="PNG Preview" />
+
+            <!-- Download Button -->
+            <a href="#" id="downloadLink" class="download-link">Download PNG</a>
+
+            <!-- Error Message -->
+            <div id="errorMessage" class="error-message">Error: Unable to convert SVG. Please check your SVG code.</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2024 SVG to PNG Converter | Built with Flask | @Abhishek Rajput
+    </div>
+
+    <script src="/static/script.js"></script> 
+</body>
+</html>
