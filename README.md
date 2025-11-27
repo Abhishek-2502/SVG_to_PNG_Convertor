@@ -62,7 +62,7 @@ Follow the steps below to set up the **SVG to PNG Converter** on your local mach
 
 ## Usage
 
-1. Open your web browser and go to `http://127.0.0.1:5000/`.
+1. Open your web browser and go to `http://127.0.0.1:8000/`.
 2. Enter your SVG code into the provided text area.
 3. Click the 'Convert to PNG' button to convert your SVG to PNG.
 4. Preview the PNG image and click on the 'Download PNG' button to save the file.
